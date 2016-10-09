@@ -3,8 +3,19 @@
 cp /srv/wp-config.php /srv/wordpress/wp-config.php
 chown apache:apache /srv/wordpress/wp-config.php
 
-function set_config {
-    sed -i "s#$1#$2#" /srv/wordpress/wp-config.php
+# see http://stackoverflow.com/a/2705678/433558
+# see https://github.com/docker-library/wordpress/blob/master/php7.0/apache/docker-entrypoint.sh
+sed_escape_rhs() {
+	echo "$@" | sed -e 's/[\/&]/\\&/g'
+}
+php_escape() {
+	php -r 'var_export(('$2') $argv[1]);' -- "$1"
+}
+set_config() {
+	key="$1"
+	value="$2"
+	var_type="${3:-string}"
+	sed -ri -e "s/$1/$(sed_escape_rhs "$(php_escape "$value" "$var_type")")/" /srv/wordpress/wp-config.php
 }
 
 # Configure database
