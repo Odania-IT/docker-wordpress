@@ -25,9 +25,6 @@ updraftplus.1.12.23.zip
 # Ninja Forms
 ninja-forms.3.0.7.zip
 
-# WP Mail Smtp
-wp-mail-smtp.0.9.6.zip
-
 # Wpoptimize
 wp-optimize.1.9.1.zip
 
