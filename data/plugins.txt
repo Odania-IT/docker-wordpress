@@ -45,3 +45,6 @@ addthis.5.3.4.zip
 
 # Activate Update Services (Reenable pinging update services for new posts)
 activate-update-services.1.0.7.zip
+
+# Really Simple CSV Importer https://wordpress.org/plugins/really-simple-csv-importer/faq/
+really-simple-csv-importer.zip
