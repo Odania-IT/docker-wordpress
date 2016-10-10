@@ -9,7 +9,7 @@ sed -i 's/#LoadModule rewrite_module/LoadModule rewrite_module/' /etc/apache2/ht
 sed -i 's#ErrorLog logs/error.log#ErrorLog /dev/stderr#g' /etc/apache2/httpd.conf
 
 echo "CustomLog /dev/stdout combined" >> /etc/apache2/httpd.conf
-echo "CustomLog /dev/stdout vhost_combined" >> /etc/apache2/httpd.conf
+#echo "CustomLog /dev/stdout vhost_combined" >> /etc/apache2/httpd.conf
 
 # logs should go to stdout / stderr
 ln -sfT /dev/stderr "/var/log/apache2/error.log"
