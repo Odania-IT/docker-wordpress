@@ -38,7 +38,7 @@ install_plugin contact-form-${PLUGIN_CONTACT_FORM_7}.zip
 install_plugin better-wp-security.5.6.2.zip
 
 # Updraft Plus (Backup)
-install_plugin updraftplus.1.12.20.zip
+install_plugin updraftplus.1.12.23.zip
 
 # Ninja Forms
 install_plugin ninja-forms.3.0.7.zip
