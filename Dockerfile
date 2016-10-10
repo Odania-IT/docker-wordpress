@@ -19,8 +19,8 @@ RUN /build/files/install_dependencies.sh
 RUN /build/files/prepare_apache.sh
 
 # Setup wordpress
-WORKDIR /build/files
-RUN ./prepare_wordpress.sh
+COPY files/plugins.txt /plugins.txt
+RUN /build/files/prepare_wordpress.sh
 COPY files/htaccess /srv/wordpress/.htaccess
 COPY files/wp-config.php /srv/wp-config.php
 

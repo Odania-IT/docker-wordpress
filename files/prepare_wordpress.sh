@@ -24,7 +24,7 @@ while read -u 10 plugin; do
 	fi
 
 	install_plugin $plugin
-done 10<plugins.txt
+done 10</plugins.txt
 
 
 # wordpress mu domain mapping <- Setup
