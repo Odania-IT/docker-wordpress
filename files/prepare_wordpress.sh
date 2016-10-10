@@ -12,6 +12,7 @@ rm wordpress.tar.gz
 # Plugins
 cd /srv/wordpress/wp-content/plugins
 function install_plugin {
+	echo "Installing Plugin $1"
 	cd /srv/wordpress/wp-content/plugins
 	wget https://downloads.wordpress.org/plugin/$1
 	unzip $1
@@ -28,6 +29,7 @@ done 10</data/plugins.txt
 
 # Themes
 function install_theme {
+	echo "Installing Theme $1"
 	cd /srv/wordpress/wp-content/themes/
 	wget https://downloads.wordpress.org/theme/$1
 	unzip $1
@@ -38,7 +40,7 @@ while read -u 10 plugin; do
 		 continue
 	fi
 
-	install_plugin $plugin
+	install_theme $plugin
 done 10</data/themes.txt
 
 
