@@ -18,6 +18,8 @@ set_config() {
 	sed -ri -e "s/$1/$(sed_escape_rhs "$(php_escape "$value" "$var_type")")/" /srv/wordpress/wp-config.php
 }
 
+set_config 'WORDPRESS_DOMAIN_CURRENT_SITE' "${WORDPRESS_DOMAIN_CURRENT_SITE}"
+
 # Configure database
 set_config 'WORDPRESS_DB_HOST' "${WORDPRESS_DB_HOST}"
 set_config 'WORDPRESS_DB_USER' "${WORDPRESS_DB_USER}"
