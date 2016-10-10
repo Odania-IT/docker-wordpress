@@ -48,3 +48,6 @@ activate-update-services.1.0.7.zip
 
 # Really Simple CSV Importer https://wordpress.org/plugins/really-simple-csv-importer/faq/
 really-simple-csv-importer.zip
+
+# Polylang https://wordpress.org/plugins/polylang
+polylang.2.0.5.zip
