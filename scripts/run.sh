@@ -12,11 +12,11 @@ done
 
 # set apache as owner/group
 if [ "$FIX_OWNERSHIP" != "" ]; then
-	chown -R apache:apache /app
+	chown -R apache:apache /srv
 fi
 
 # display logs
-tail -F /var/log/apache2/*log &
+#tail -F /var/log/apache2/*log &
 
 # execute any pre-exec scripts, useful for images
 # based on this image

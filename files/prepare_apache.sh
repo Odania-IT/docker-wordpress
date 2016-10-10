@@ -2,12 +2,11 @@
 
 chown -R apache:apache /srv
 mkdir -p /run/apache2 && chown -R apache:apache /run/apache2
-sed -i 's#^ServerRoot /var/www#ServerRoot /srv#g' /etc/apache2/httpd.conf
 sed -i 's#^DocumentRoot ".*#DocumentRoot "/srv/wordpress"#g' /etc/apache2/httpd.conf
 sed -i 's#AllowOverride [nN]one#AllowOverride All#g' /etc/apache2/httpd.conf
 sed -i 's#^<Directory ".*>#<Directory "/srv/wordpress">#g' /etc/apache2/httpd.conf
 sed -i 's/#LoadModule rewrite_module/LoadModule rewrite_module/' /etc/apache2/httpd.conf
-sed -i 's#ErrorLog logs/error.log#/dev/stderr#g' /etc/apache2/httpd.conf
+sed -i 's#ErrorLog logs/error.log#ErrorLog /dev/stderr#g' /etc/apache2/httpd.conf
 
 echo "CustomLog /dev/stdout combined" >> /etc/apache2/httpd.conf
 echo "CustomLog /dev/stdout vhost_combined" >> /etc/apache2/httpd.conf
