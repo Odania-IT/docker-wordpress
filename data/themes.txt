@@ -1,2 +1,11 @@
 # SEOPress
 seopress.1.4.1.zip
+
+# Layout Builder
+layout-builder.1.9.zip
+
+# Cats456
+cats456.1.5.zip
+
+# Kyma
+kyma.1.8.zip
