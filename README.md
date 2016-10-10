@@ -6,9 +6,17 @@ This image sets up wordpress. It uses alpine and the apache server to serve the 
 ## Plugins
 
 Some plugins are already installed.
-[plugins.txt](plugins.txt)
+[plugins.txt](data/plugins.txt)
 
 If you overwrite this file with your plugins you can install different onces or extend it.
+
+
+## Themes
+
+Some themes are already installed.
+[themes.txt](data/themes.txt)
+
+If you overwrite this file with your themes you can install different onces or extend it.
 
 ## Config
 
