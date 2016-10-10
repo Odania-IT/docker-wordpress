@@ -10,8 +10,11 @@ jetpack.4.3.1.zip
 # All in one SEO pack
 all-in-one-seo-pack.2.3.9.2.zip
 
-# Contact Form 7
-contact-form-7.4.5.1.zip
+# Banner WIZ
+banner-wizz.zip
+
+# Easy Affiliate Links
+easy-affiliate-links.zip
 
 # iThemes Security
 better-wp-security.5.6.2.zip
