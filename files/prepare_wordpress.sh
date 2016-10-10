@@ -12,10 +12,10 @@ rm wordpress.tar.gz
 # Plugins
 cd /srv/wordpress/wp-content/plugins
 function install_plugin {
-    cd /srv/wordpress/wp-content/plugins
-    wget https://downloads.wordpress.org/plugin/$1
-    unzip $1
-    rm -f $1
+	cd /srv/wordpress/wp-content/plugins
+	wget https://downloads.wordpress.org/plugin/$1
+	unzip $1
+	rm -f $1
 }
 
 while read -u 10 plugin; do
@@ -24,7 +24,22 @@ while read -u 10 plugin; do
 	fi
 
 	install_plugin $plugin
-done 10</plugins.txt
+done 10</data/plugins.txt
+
+# Themes
+function install_theme {
+	cd /srv/wordpress/wp-content/themes/
+	wget https://downloads.wordpress.org/theme/$1
+	unzip $1
+	rm -f $1
+}
+while read -u 10 plugin; do
+	if [[ "$plugin" =~ ^#.* ]] || [[ "$plugin" = "" ]]; then
+		 continue
+	fi
+
+	install_plugin $plugin
+done 10</data/themes.txt
 
 
 # wordpress mu domain mapping <- Setup
