@@ -51,3 +51,6 @@ really-simple-csv-importer.zip
 
 # Polylang https://wordpress.org/plugins/polylang
 polylang.2.0.5.zip
+
+# WP Impressum https://de.wordpress.org/plugins/wp-impressum/
+wp-impressum.zip
