@@ -50,7 +50,9 @@ activate-update-services.1.0.7.zip
 really-simple-csv-importer.zip
 
 # Polylang https://wordpress.org/plugins/polylang
+# https://de.wordpress.org/plugins/lingotek-translation/
 polylang.2.0.5.zip
+lingotek-translation.zip
 
 # WP Impressum https://de.wordpress.org/plugins/wp-impressum/
 wp-impressum.zip
