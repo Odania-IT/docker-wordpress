@@ -21,9 +21,9 @@ set_config() {
 set_config 'WORDPRESS_DOMAIN_CURRENT_SITE' "${WORDPRESS_DOMAIN_CURRENT_SITE}"
 
 if [ "${WORDPRESS_ENABLE_MULTISITE}" == "true" ]; then
-	sed -ri -e "s/$1/true/" /srv/wordpress/wp-config.php
+	sed -ri -e "s/WORDPRESS_ENABLE_MULTISITE/true/" /srv/wordpress/wp-config.php
 else
-	sed -ri -e "s/$1/false/" /srv/wordpress/wp-config.php
+	sed -ri -e "s/WORDPRESS_ENABLE_MULTISITE/false/" /srv/wordpress/wp-config.php
 fi
 
 # Configure database
