@@ -1,4 +1,3 @@
-#FROM php:7.0-alpine
 FROM alpine:3.4
 MAINTAINER Mike Petersen <mike@odania-it.de>
 
