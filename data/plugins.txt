@@ -8,7 +8,7 @@ google-sitemap-generator.4.0.8.zip
 jetpack.4.3.2.zip
 
 # All in one SEO pack
-all-in-one-seo-pack.2.3.10.1.zip
+all-in-one-seo-pack.2.3.10.2.zip
 
 # Banner WIZ
 banner-wizz.zip
@@ -51,7 +51,7 @@ really-simple-csv-importer.zip
 
 # Polylang https://wordpress.org/plugins/polylang
 # https://de.wordpress.org/plugins/lingotek-translation/
-polylang.2.0.6.zip
+polylang.2.0.7.zip
 lingotek-translation.zip
 
 # WP Impressum https://de.wordpress.org/plugins/wp-impressum/
