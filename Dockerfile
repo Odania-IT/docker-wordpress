@@ -1,4 +1,4 @@
-FROM odaniait/docker-base:alpine
+FROM alpine:3.4
 MAINTAINER Mike Petersen <mike@odania-it.de>
 
 ENV TERM vt100
