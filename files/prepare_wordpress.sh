@@ -47,5 +47,7 @@ done 10</data/themes.txt
 # wordpress mu domain mapping <- Setup
 cp /srv/wordpress/wp-content/plugins/wordpress-mu-domain-mapping/sunrise.php /srv/wordpress/wp-content/sunrise.php
 
-mkdir -p /srv/wordpress/wp-content/uploads
+mkdir -p /uploads
+ln -sf /uploads /srv/wordpress/wp-content/uploads
+
 chown -R apache:apache /srv

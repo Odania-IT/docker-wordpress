@@ -27,7 +27,7 @@ RUN mkdir /scripts/pre-init.d && \
     chmod -R 755 /scripts
 
 WORKDIR /srv
-VOLUME /srv/wordpress
 EXPOSE 80
 VOLUME ["/srv/wordpress/wp-content/uploads"]
+VOLUME ["/uploads"]
 ENTRYPOINT ["/scripts/run.sh"]
