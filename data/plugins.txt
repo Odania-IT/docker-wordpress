@@ -54,8 +54,5 @@ really-simple-csv-importer.zip
 polylang.2.0.7.zip
 lingotek-translation.zip
 
-# WP Impressum https://de.wordpress.org/plugins/wp-impressum/
-wp-impressum.zip
-
 # Simple Link List https://de.wordpress.org/plugins/simple-link-list-widget/
 simple-link-list-widget.0.3.1.zip
