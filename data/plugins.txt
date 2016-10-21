@@ -53,3 +53,6 @@ lingotek-translation.zip
 
 # Simple Link List https://de.wordpress.org/plugins/simple-link-list-widget/
 simple-link-list-widget.0.3.1.zip
+
+# Contact Form 7
+contact-form-7.4.5.1.zip
