@@ -19,9 +19,6 @@ better-wp-security.5.6.4.zip
 # Updraft Plus (Backup)
 updraftplus.1.12.23.zip
 
-# Ninja Forms
-ninja-forms.3.0.8.zip
-
 # Wpoptimize
 wp-optimize.1.9.1.zip
 
