@@ -1,4 +1,6 @@
 #!/usr/bin/env sh
+set -e
+
 # Install base packages
 apk update
 apk upgrade

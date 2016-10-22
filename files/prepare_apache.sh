@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -e
 
 chown -R apache:apache /srv
 mkdir -p /run/apache2 && chown -R apache:apache /run/apache2

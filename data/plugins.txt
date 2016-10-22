@@ -56,3 +56,6 @@ simple-link-list-widget.0.3.1.zip
 
 # Contact Form 7
 contact-form-7.4.5.1.zip
+
+# Cache Enabler https://de.wordpress.org/plugins/cache-enabler/
+cache-enabler.zip
