@@ -59,3 +59,6 @@ contact-form-7.4.5.1.zip
 
 # Cache Enabler https://de.wordpress.org/plugins/cache-enabler/
 cache-enabler.zip
+
+# Optimus - Image Optimization https://de.wordpress.org/plugins/optimus/
+optimus.zip
