@@ -4,6 +4,9 @@ wordpress-mu-domain-mapping.0.5.5.1.zip
 # google xml sitemaps
 google-sitemap-generator.4.0.8.zip
 
+# Google Analytics multisite compatible https://de.wordpress.org/plugins/google-analytics-dashboard-for-wp/
+google-analytics-dashboard-for-wp.4.9.3.2.zip
+
 # Jetpack
 jetpack.4.3.2.zip
 
