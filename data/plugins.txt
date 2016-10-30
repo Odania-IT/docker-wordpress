@@ -65,3 +65,6 @@ optimus.zip
 
 # SSL Insecure Content Fixer https://de.wordpress.org/plugins/ssl-insecure-content-fixer/
 ssl-insecure-content-fixer.2.2.0.zip
+
+# Pods http://pods.io/
+pods.2.6.7.zip
