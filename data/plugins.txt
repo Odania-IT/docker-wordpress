@@ -68,3 +68,6 @@ ssl-insecure-content-fixer.2.2.0.zip
 
 # Pods http://pods.io/
 pods.2.6.7.zip
+
+# Propeller Ads Plugin https://de.wordpress.org/plugins/propellerads-official/
+propellerads-official.zip
