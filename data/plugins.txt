@@ -8,19 +8,19 @@ google-sitemap-generator.4.0.8.zip
 google-analytics-dashboard-for-wp.4.9.3.2.zip
 
 # Jetpack
-jetpack.4.3.2.zip
+# jetpack.4.3.2.zip
 
 # All in one SEO pack
-all-in-one-seo-pack.2.3.10.2.zip
+# all-in-one-seo-pack.2.3.10.2.zip
 
 # Easy Affiliate Links
 easy-affiliate-links.zip
 
 # iThemes Security
-better-wp-security.5.6.4.zip
+# better-wp-security.5.6.4.zip
 
 # Updraft Plus (Backup)
-updraftplus.1.12.23.zip
+# updraftplus.1.12.29.zip
 
 # Wpoptimize
 wp-optimize.1.9.1.zip
@@ -29,7 +29,7 @@ wp-optimize.1.9.1.zip
 broken-link-checker.1.11.2.zip
 
 # WP Statistics
-wp-statistics.10.3.zip
+# wp-statistics.10.3.zip
 
 # Disqus Comment System
 disqus-comment-system.2.86.zip
@@ -48,14 +48,14 @@ really-simple-csv-importer.zip
 
 # Polylang https://wordpress.org/plugins/polylang
 # https://de.wordpress.org/plugins/lingotek-translation/
-polylang.2.0.7.zip
+polylang.2.0.10.zip
 lingotek-translation.zip
 
 # Simple Link List https://de.wordpress.org/plugins/simple-link-list-widget/
 simple-link-list-widget.0.3.1.zip
 
 # Contact Form 7
-contact-form-7.4.5.1.zip
+# contact-form-7.4.5.1.zip
 
 # Cache Enabler https://de.wordpress.org/plugins/cache-enabler/
 cache-enabler.zip
@@ -64,7 +64,7 @@ cache-enabler.zip
 optimus.zip
 
 # SSL Insecure Content Fixer https://de.wordpress.org/plugins/ssl-insecure-content-fixer/
-ssl-insecure-content-fixer.2.2.0.zip
+ssl-insecure-content-fixer.2.2.1.zip
 
 # Pods http://pods.io/
 pods.2.6.7.zip
