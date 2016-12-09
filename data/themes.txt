@@ -8,4 +8,4 @@ layout-builder.1.9.zip
 cats456.1.5.zip
 
 # Kyma
-kyma.1.8.zip
+kyma.1.9.zip
