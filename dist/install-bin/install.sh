@@ -6,7 +6,7 @@ cd /opt
 apt-get update
 pecl channel-update pecl.php.net
 
-apt-get install -y zlib1g-dev libmemcached-dev
+apt-get install -y zlib1g-dev libmemcached-dev gnupg-utils
 pecl install apcu memcached igbinary
 
 # compile Redis with igbinary support
@@ -20,6 +20,7 @@ make install
 # Install extensions
 docker-php-ext-install bcmath sockets
 docker-php-ext-enable apcu igbinary memcached opcache redis
+a2enmod ext_filter headers
 
 # Cleanup
 docker-php-source delete

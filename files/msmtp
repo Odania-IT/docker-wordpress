@@ -1,9 +1,0 @@
-account default
-tls on
-host MAIL_HOST
-port MAIL_PORT
-auto_from on
-
-auth on
-user MAIL_USER
-password MAIL_PASSWORD
